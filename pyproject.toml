@@ -1,0 +1,18 @@
+[project]
+name = "sensormap-client"
+version = "0.1.0"
+description = "A client for the SOIL Sensormap project"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "geopandas>=1.0.1",
+    "jupyterlab>=4.3.5",
+    "keycloak-client>=0.15.4",
+    "pandas>=2.2.3",
+    "pydantic>=2.10.6",
+    "pyproj>=3.7.1",
+    "python-dateutil>=2.9.0.post0",
+    "python-keycloak>=5.3.1",
+    "typing-extensions>=4.12.2",
+    "urllib3>=2.3.0",
+]
