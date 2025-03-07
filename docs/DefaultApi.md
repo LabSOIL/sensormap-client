@@ -161,13 +161,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **201** | Resource created successfully |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -242,13 +243,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **201** | Resource created successfully |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -323,13 +325,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **201** | Resource created successfully |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -404,13 +407,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **201** | Resource created successfully |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -485,13 +489,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **201** | Resource created successfully |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -566,13 +571,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **201** | Resource created successfully |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -647,13 +653,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **201** | Resource created successfully |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -728,13 +735,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **201** | Resource created successfully |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -809,13 +817,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **201** | Resource created successfully |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -890,13 +899,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **201** | Resource created successfully |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -971,13 +981,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **201** | Resource created successfully |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -1052,13 +1063,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **201** | Resource created successfully |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -1133,13 +1145,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **201** | Resource created successfully |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -1212,13 +1225,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **204** | Resources deleted successfully |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -1291,13 +1305,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **204** | Resources deleted successfully |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -1370,13 +1385,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **204** | Resources deleted successfully |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -1449,13 +1465,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **204** | Resources deleted successfully |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -1528,13 +1545,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **204** | Resources deleted successfully |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -1607,13 +1625,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **204** | Resources deleted successfully |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -1686,13 +1705,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **204** | Resources deleted successfully |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -1765,13 +1785,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **204** | Resources deleted successfully |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -1844,13 +1865,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **204** | Resources deleted successfully |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -1923,13 +1945,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **204** | Resources deleted successfully |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -2002,13 +2025,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **204** | Resources deleted successfully |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -2081,13 +2105,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **204** | Resources deleted successfully |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -2160,13 +2185,14 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **204** | Resources deleted successfully |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -2245,6 +2271,7 @@ void (empty response body)
 |-------------|-------------|------------------|
 **204** | Resource deleted successfully |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -2323,6 +2350,7 @@ void (empty response body)
 |-------------|-------------|------------------|
 **204** | Resource deleted successfully |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -2401,6 +2429,7 @@ void (empty response body)
 |-------------|-------------|------------------|
 **204** | Resource deleted successfully |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -2479,6 +2508,7 @@ void (empty response body)
 |-------------|-------------|------------------|
 **204** | Resource deleted successfully |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -2557,6 +2587,7 @@ void (empty response body)
 |-------------|-------------|------------------|
 **204** | Resource deleted successfully |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -2635,6 +2666,7 @@ void (empty response body)
 |-------------|-------------|------------------|
 **204** | Resource deleted successfully |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -2713,6 +2745,7 @@ void (empty response body)
 |-------------|-------------|------------------|
 **204** | Resource deleted successfully |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -2791,6 +2824,7 @@ void (empty response body)
 |-------------|-------------|------------------|
 **204** | Resource deleted successfully |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -2869,6 +2903,7 @@ void (empty response body)
 |-------------|-------------|------------------|
 **204** | Resource deleted successfully |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -2947,6 +2982,7 @@ void (empty response body)
 |-------------|-------------|------------------|
 **204** | Resource deleted successfully |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -3025,6 +3061,7 @@ void (empty response body)
 |-------------|-------------|------------------|
 **204** | Resource deleted successfully |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -3103,6 +3140,7 @@ void (empty response body)
 |-------------|-------------|------------------|
 **204** | Resource deleted successfully |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -3181,6 +3219,7 @@ void (empty response body)
 |-------------|-------------|------------------|
 **204** | Resource deleted successfully |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -3311,7 +3350,7 @@ with sensormap_client.ApiClient(configuration) as api_client:
     api_instance = sensormap_client.DefaultApi(api_client)
     filter = '{\"id\":\"550e8400-e29b-41d4-a716-446655440000\",\"name\":\"example\",\"q\":\"search text\"}' # str | JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}` (optional)
     range = '[0,9]' # str | Range for pagination in the format \"[start, end]\".  Example: `[0,9]` (optional)
-    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]` (optional)
+    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]` (optional)
 
     try:
         # Get all areas
@@ -3331,7 +3370,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **filter** | **str**| JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: &#x60;{\&quot;q\&quot;: \&quot;search text\&quot;}&#x60; - Filtering by a single ID: &#x60;{\&quot;id\&quot;: \&quot;550e8400-e29b-41d4-a716-446655440000\&quot;}&#x60; - Filtering by multiple IDs: &#x60;{\&quot;id\&quot;: [\&quot;550e8400-e29b-41d4-a716-446655440000\&quot;, \&quot;550e8400-e29b-41d4-a716-446655440001\&quot;]}&#x60; - Filtering on other columns: &#x60;{\&quot;name\&quot;: \&quot;example\&quot;}&#x60; | [optional] 
  **range** | **str**| Range for pagination in the format \&quot;[start, end]\&quot;.  Example: &#x60;[0,9]&#x60; | [optional] 
- **sort** | **str**| Sort order for the results in the format &#39;[\&quot;column\&quot;, \&quot;order\&quot;]&#39;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
+ **sort** | **str**| Sort order for the results in the format &#x60;[\&quot;column\&quot;, \&quot;order\&quot;]&#x60;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
 
 ### Return type
 
@@ -3351,6 +3390,7 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | List of resources |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -3410,7 +3450,7 @@ with sensormap_client.ApiClient(configuration) as api_client:
     api_instance = sensormap_client.DefaultApi(api_client)
     filter = '{id=550e8400-e29b-41d4-a716-446655440000, name=example, q=search text}' # str | JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}` (optional)
     range = '[0,9]' # str | Range for pagination in the format \"[start, end]\".  Example: `[0,9]` (optional)
-    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]` (optional)
+    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]` (optional)
 
     try:
         # Get all assignments (sensor profile)
@@ -3430,7 +3470,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **filter** | **str**| JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: &#x60;{\&quot;q\&quot;: \&quot;search text\&quot;}&#x60; - Filtering by a single ID: &#x60;{\&quot;id\&quot;: \&quot;550e8400-e29b-41d4-a716-446655440000\&quot;}&#x60; - Filtering by multiple IDs: &#x60;{\&quot;id\&quot;: [\&quot;550e8400-e29b-41d4-a716-446655440000\&quot;, \&quot;550e8400-e29b-41d4-a716-446655440001\&quot;]}&#x60; - Filtering on other columns: &#x60;{\&quot;name\&quot;: \&quot;example\&quot;}&#x60; | [optional] 
  **range** | **str**| Range for pagination in the format \&quot;[start, end]\&quot;.  Example: &#x60;[0,9]&#x60; | [optional] 
- **sort** | **str**| Sort order for the results in the format &#39;[\&quot;column\&quot;, \&quot;order\&quot;]&#39;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
+ **sort** | **str**| Sort order for the results in the format &#x60;[\&quot;column\&quot;, \&quot;order\&quot;]&#x60;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
 
 ### Return type
 
@@ -3450,6 +3490,7 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | List of resources |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -3502,7 +3543,7 @@ with sensormap_client.ApiClient(configuration) as api_client:
     api_instance = sensormap_client.DefaultApi(api_client)
     filter = '{id=550e8400-e29b-41d4-a716-446655440000, name=example, q=search text}' # str | JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}` (optional)
     range = '[0,9]' # str | Range for pagination in the format \"[start, end]\".  Example: `[0,9]` (optional)
-    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]` (optional)
+    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]` (optional)
 
     try:
         # Get all channels (instrument experiment)
@@ -3522,7 +3563,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **filter** | **str**| JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: &#x60;{\&quot;q\&quot;: \&quot;search text\&quot;}&#x60; - Filtering by a single ID: &#x60;{\&quot;id\&quot;: \&quot;550e8400-e29b-41d4-a716-446655440000\&quot;}&#x60; - Filtering by multiple IDs: &#x60;{\&quot;id\&quot;: [\&quot;550e8400-e29b-41d4-a716-446655440000\&quot;, \&quot;550e8400-e29b-41d4-a716-446655440001\&quot;]}&#x60; - Filtering on other columns: &#x60;{\&quot;name\&quot;: \&quot;example\&quot;}&#x60; | [optional] 
  **range** | **str**| Range for pagination in the format \&quot;[start, end]\&quot;.  Example: &#x60;[0,9]&#x60; | [optional] 
- **sort** | **str**| Sort order for the results in the format &#39;[\&quot;column\&quot;, \&quot;order\&quot;]&#39;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
+ **sort** | **str**| Sort order for the results in the format &#x60;[\&quot;column\&quot;, \&quot;order\&quot;]&#x60;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
 
 ### Return type
 
@@ -3542,6 +3583,7 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | List of resources |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -3598,7 +3640,7 @@ with sensormap_client.ApiClient(configuration) as api_client:
     api_instance = sensormap_client.DefaultApi(api_client)
     filter = '{id=550e8400-e29b-41d4-a716-446655440000, name=example, q=search text}' # str | JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}` (optional)
     range = '[0,9]' # str | Range for pagination in the format \"[start, end]\".  Example: `[0,9]` (optional)
-    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]` (optional)
+    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]` (optional)
 
     try:
         # Get all experiments (lab instrument)
@@ -3618,7 +3660,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **filter** | **str**| JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: &#x60;{\&quot;q\&quot;: \&quot;search text\&quot;}&#x60; - Filtering by a single ID: &#x60;{\&quot;id\&quot;: \&quot;550e8400-e29b-41d4-a716-446655440000\&quot;}&#x60; - Filtering by multiple IDs: &#x60;{\&quot;id\&quot;: [\&quot;550e8400-e29b-41d4-a716-446655440000\&quot;, \&quot;550e8400-e29b-41d4-a716-446655440001\&quot;]}&#x60; - Filtering on other columns: &#x60;{\&quot;name\&quot;: \&quot;example\&quot;}&#x60; | [optional] 
  **range** | **str**| Range for pagination in the format \&quot;[start, end]\&quot;.  Example: &#x60;[0,9]&#x60; | [optional] 
- **sort** | **str**| Sort order for the results in the format &#39;[\&quot;column\&quot;, \&quot;order\&quot;]&#39;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
+ **sort** | **str**| Sort order for the results in the format &#x60;[\&quot;column\&quot;, \&quot;order\&quot;]&#x60;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
 
 ### Return type
 
@@ -3638,6 +3680,7 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | List of resources |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -3712,7 +3755,7 @@ with sensormap_client.ApiClient(configuration) as api_client:
     api_instance = sensormap_client.DefaultApi(api_client)
     filter = '{id=550e8400-e29b-41d4-a716-446655440000, name=example, q=search text}' # str | JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}` (optional)
     range = '[0,9]' # str | Range for pagination in the format \"[start, end]\".  Example: `[0,9]` (optional)
-    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]` (optional)
+    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]` (optional)
 
     try:
         # Get all GNSS recordings
@@ -3732,7 +3775,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **filter** | **str**| JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: &#x60;{\&quot;q\&quot;: \&quot;search text\&quot;}&#x60; - Filtering by a single ID: &#x60;{\&quot;id\&quot;: \&quot;550e8400-e29b-41d4-a716-446655440000\&quot;}&#x60; - Filtering by multiple IDs: &#x60;{\&quot;id\&quot;: [\&quot;550e8400-e29b-41d4-a716-446655440000\&quot;, \&quot;550e8400-e29b-41d4-a716-446655440001\&quot;]}&#x60; - Filtering on other columns: &#x60;{\&quot;name\&quot;: \&quot;example\&quot;}&#x60; | [optional] 
  **range** | **str**| Range for pagination in the format \&quot;[start, end]\&quot;.  Example: &#x60;[0,9]&#x60; | [optional] 
- **sort** | **str**| Sort order for the results in the format &#39;[\&quot;column\&quot;, \&quot;order\&quot;]&#39;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
+ **sort** | **str**| Sort order for the results in the format &#x60;[\&quot;column\&quot;, \&quot;order\&quot;]&#x60;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
 
 ### Return type
 
@@ -3752,6 +3795,7 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | List of resources |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -3816,7 +3860,7 @@ with sensormap_client.ApiClient(configuration) as api_client:
     api_instance = sensormap_client.DefaultApi(api_client)
     filter = '{id=550e8400-e29b-41d4-a716-446655440000, name=example, q=search text}' # str | JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}` (optional)
     range = '[0,9]' # str | Range for pagination in the format \"[start, end]\".  Example: `[0,9]` (optional)
-    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]` (optional)
+    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]` (optional)
 
     try:
         # Get all plots
@@ -3836,7 +3880,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **filter** | **str**| JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: &#x60;{\&quot;q\&quot;: \&quot;search text\&quot;}&#x60; - Filtering by a single ID: &#x60;{\&quot;id\&quot;: \&quot;550e8400-e29b-41d4-a716-446655440000\&quot;}&#x60; - Filtering by multiple IDs: &#x60;{\&quot;id\&quot;: [\&quot;550e8400-e29b-41d4-a716-446655440000\&quot;, \&quot;550e8400-e29b-41d4-a716-446655440001\&quot;]}&#x60; - Filtering on other columns: &#x60;{\&quot;name\&quot;: \&quot;example\&quot;}&#x60; | [optional] 
  **range** | **str**| Range for pagination in the format \&quot;[start, end]\&quot;.  Example: &#x60;[0,9]&#x60; | [optional] 
- **sort** | **str**| Sort order for the results in the format &#39;[\&quot;column\&quot;, \&quot;order\&quot;]&#39;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
+ **sort** | **str**| Sort order for the results in the format &#x60;[\&quot;column\&quot;, \&quot;order\&quot;]&#x60;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
 
 ### Return type
 
@@ -3856,6 +3900,7 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | List of resources |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -3912,7 +3957,7 @@ with sensormap_client.ApiClient(configuration) as api_client:
     api_instance = sensormap_client.DefaultApi(api_client)
     filter = '{id=550e8400-e29b-41d4-a716-446655440000, name=example, q=search text}' # str | JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}` (optional)
     range = '[0,9]' # str | Range for pagination in the format \"[start, end]\".  Example: `[0,9]` (optional)
-    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]` (optional)
+    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]` (optional)
 
     try:
         # Get all profiles (sensor)
@@ -3932,7 +3977,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **filter** | **str**| JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: &#x60;{\&quot;q\&quot;: \&quot;search text\&quot;}&#x60; - Filtering by a single ID: &#x60;{\&quot;id\&quot;: \&quot;550e8400-e29b-41d4-a716-446655440000\&quot;}&#x60; - Filtering by multiple IDs: &#x60;{\&quot;id\&quot;: [\&quot;550e8400-e29b-41d4-a716-446655440000\&quot;, \&quot;550e8400-e29b-41d4-a716-446655440001\&quot;]}&#x60; - Filtering on other columns: &#x60;{\&quot;name\&quot;: \&quot;example\&quot;}&#x60; | [optional] 
  **range** | **str**| Range for pagination in the format \&quot;[start, end]\&quot;.  Example: &#x60;[0,9]&#x60; | [optional] 
- **sort** | **str**| Sort order for the results in the format &#39;[\&quot;column\&quot;, \&quot;order\&quot;]&#39;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
+ **sort** | **str**| Sort order for the results in the format &#x60;[\&quot;column\&quot;, \&quot;order\&quot;]&#x60;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
 
 ### Return type
 
@@ -3952,6 +3997,7 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | List of resources |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -4014,7 +4060,7 @@ with sensormap_client.ApiClient(configuration) as api_client:
     api_instance = sensormap_client.DefaultApi(api_client)
     filter = '{id=550e8400-e29b-41d4-a716-446655440000, name=example, q=search text}' # str | JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}` (optional)
     range = '[0,9]' # str | Range for pagination in the format \"[start, end]\".  Example: `[0,9]` (optional)
-    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]` (optional)
+    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]` (optional)
 
     try:
         # Get all projects
@@ -4034,7 +4080,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **filter** | **str**| JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: &#x60;{\&quot;q\&quot;: \&quot;search text\&quot;}&#x60; - Filtering by a single ID: &#x60;{\&quot;id\&quot;: \&quot;550e8400-e29b-41d4-a716-446655440000\&quot;}&#x60; - Filtering by multiple IDs: &#x60;{\&quot;id\&quot;: [\&quot;550e8400-e29b-41d4-a716-446655440000\&quot;, \&quot;550e8400-e29b-41d4-a716-446655440001\&quot;]}&#x60; - Filtering on other columns: &#x60;{\&quot;name\&quot;: \&quot;example\&quot;}&#x60; | [optional] 
  **range** | **str**| Range for pagination in the format \&quot;[start, end]\&quot;.  Example: &#x60;[0,9]&#x60; | [optional] 
- **sort** | **str**| Sort order for the results in the format &#39;[\&quot;column\&quot;, \&quot;order\&quot;]&#39;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
+ **sort** | **str**| Sort order for the results in the format &#x60;[\&quot;column\&quot;, \&quot;order\&quot;]&#x60;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
 
 ### Return type
 
@@ -4054,6 +4100,7 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | List of resources |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -4106,7 +4153,7 @@ with sensormap_client.ApiClient(configuration) as api_client:
     api_instance = sensormap_client.DefaultApi(api_client)
     filter = '{id=550e8400-e29b-41d4-a716-446655440000, name=example, q=search text}' # str | JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}` (optional)
     range = '[0,9]' # str | Range for pagination in the format \"[start, end]\".  Example: `[0,9]` (optional)
-    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]` (optional)
+    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]` (optional)
 
     try:
         # Get all samples (plot)
@@ -4126,7 +4173,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **filter** | **str**| JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: &#x60;{\&quot;q\&quot;: \&quot;search text\&quot;}&#x60; - Filtering by a single ID: &#x60;{\&quot;id\&quot;: \&quot;550e8400-e29b-41d4-a716-446655440000\&quot;}&#x60; - Filtering by multiple IDs: &#x60;{\&quot;id\&quot;: [\&quot;550e8400-e29b-41d4-a716-446655440000\&quot;, \&quot;550e8400-e29b-41d4-a716-446655440001\&quot;]}&#x60; - Filtering on other columns: &#x60;{\&quot;name\&quot;: \&quot;example\&quot;}&#x60; | [optional] 
  **range** | **str**| Range for pagination in the format \&quot;[start, end]\&quot;.  Example: &#x60;[0,9]&#x60; | [optional] 
- **sort** | **str**| Sort order for the results in the format &#39;[\&quot;column\&quot;, \&quot;order\&quot;]&#39;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
+ **sort** | **str**| Sort order for the results in the format &#x60;[\&quot;column\&quot;, \&quot;order\&quot;]&#x60;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
 
 ### Return type
 
@@ -4146,6 +4193,7 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | List of resources |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -4202,7 +4250,7 @@ with sensormap_client.ApiClient(configuration) as api_client:
     api_instance = sensormap_client.DefaultApi(api_client)
     filter = '{id=550e8400-e29b-41d4-a716-446655440000, name=example, q=search text}' # str | JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}` (optional)
     range = '[0,9]' # str | Range for pagination in the format \"[start, end]\".  Example: `[0,9]` (optional)
-    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]` (optional)
+    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]` (optional)
 
     try:
         # Get all sensors
@@ -4222,7 +4270,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **filter** | **str**| JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: &#x60;{\&quot;q\&quot;: \&quot;search text\&quot;}&#x60; - Filtering by a single ID: &#x60;{\&quot;id\&quot;: \&quot;550e8400-e29b-41d4-a716-446655440000\&quot;}&#x60; - Filtering by multiple IDs: &#x60;{\&quot;id\&quot;: [\&quot;550e8400-e29b-41d4-a716-446655440000\&quot;, \&quot;550e8400-e29b-41d4-a716-446655440001\&quot;]}&#x60; - Filtering on other columns: &#x60;{\&quot;name\&quot;: \&quot;example\&quot;}&#x60; | [optional] 
  **range** | **str**| Range for pagination in the format \&quot;[start, end]\&quot;.  Example: &#x60;[0,9]&#x60; | [optional] 
- **sort** | **str**| Sort order for the results in the format &#39;[\&quot;column\&quot;, \&quot;order\&quot;]&#39;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
+ **sort** | **str**| Sort order for the results in the format &#x60;[\&quot;column\&quot;, \&quot;order\&quot;]&#x60;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
 
 ### Return type
 
@@ -4242,6 +4290,7 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | List of resources |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -4308,7 +4357,7 @@ with sensormap_client.ApiClient(configuration) as api_client:
     api_instance = sensormap_client.DefaultApi(api_client)
     filter = '{id=550e8400-e29b-41d4-a716-446655440000, name=example, q=search text}' # str | JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}` (optional)
     range = '[0,9]' # str | Range for pagination in the format \"[start, end]\".  Example: `[0,9]` (optional)
-    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]` (optional)
+    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]` (optional)
 
     try:
         # Get all soil profiles
@@ -4328,7 +4377,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **filter** | **str**| JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: &#x60;{\&quot;q\&quot;: \&quot;search text\&quot;}&#x60; - Filtering by a single ID: &#x60;{\&quot;id\&quot;: \&quot;550e8400-e29b-41d4-a716-446655440000\&quot;}&#x60; - Filtering by multiple IDs: &#x60;{\&quot;id\&quot;: [\&quot;550e8400-e29b-41d4-a716-446655440000\&quot;, \&quot;550e8400-e29b-41d4-a716-446655440001\&quot;]}&#x60; - Filtering on other columns: &#x60;{\&quot;name\&quot;: \&quot;example\&quot;}&#x60; | [optional] 
  **range** | **str**| Range for pagination in the format \&quot;[start, end]\&quot;.  Example: &#x60;[0,9]&#x60; | [optional] 
- **sort** | **str**| Sort order for the results in the format &#39;[\&quot;column\&quot;, \&quot;order\&quot;]&#39;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
+ **sort** | **str**| Sort order for the results in the format &#x60;[\&quot;column\&quot;, \&quot;order\&quot;]&#x60;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
 
 ### Return type
 
@@ -4348,6 +4397,7 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | List of resources |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -4404,7 +4454,7 @@ with sensormap_client.ApiClient(configuration) as api_client:
     api_instance = sensormap_client.DefaultApi(api_client)
     filter = '{id=550e8400-e29b-41d4-a716-446655440000, name=example, q=search text}' # str | JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}` (optional)
     range = '[0,9]' # str | Range for pagination in the format \"[start, end]\".  Example: `[0,9]` (optional)
-    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]` (optional)
+    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]` (optional)
 
     try:
         # Get all soil types
@@ -4424,7 +4474,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **filter** | **str**| JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: &#x60;{\&quot;q\&quot;: \&quot;search text\&quot;}&#x60; - Filtering by a single ID: &#x60;{\&quot;id\&quot;: \&quot;550e8400-e29b-41d4-a716-446655440000\&quot;}&#x60; - Filtering by multiple IDs: &#x60;{\&quot;id\&quot;: [\&quot;550e8400-e29b-41d4-a716-446655440000\&quot;, \&quot;550e8400-e29b-41d4-a716-446655440001\&quot;]}&#x60; - Filtering on other columns: &#x60;{\&quot;name\&quot;: \&quot;example\&quot;}&#x60; | [optional] 
  **range** | **str**| Range for pagination in the format \&quot;[start, end]\&quot;.  Example: &#x60;[0,9]&#x60; | [optional] 
- **sort** | **str**| Sort order for the results in the format &#39;[\&quot;column\&quot;, \&quot;order\&quot;]&#39;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
+ **sort** | **str**| Sort order for the results in the format &#x60;[\&quot;column\&quot;, \&quot;order\&quot;]&#x60;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
 
 ### Return type
 
@@ -4444,6 +4494,7 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | List of resources |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -4500,7 +4551,7 @@ with sensormap_client.ApiClient(configuration) as api_client:
     api_instance = sensormap_client.DefaultApi(api_client)
     filter = '{id=550e8400-e29b-41d4-a716-446655440000, name=example, q=search text}' # str | JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}` (optional)
     range = '[0,9]' # str | Range for pagination in the format \"[start, end]\".  Example: `[0,9]` (optional)
-    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]` (optional)
+    sort = '[\"id\", \"ASC\"]' # str | Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]` (optional)
 
     try:
         # Get all transects
@@ -4520,7 +4571,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **filter** | **str**| JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: &#x60;{\&quot;q\&quot;: \&quot;search text\&quot;}&#x60; - Filtering by a single ID: &#x60;{\&quot;id\&quot;: \&quot;550e8400-e29b-41d4-a716-446655440000\&quot;}&#x60; - Filtering by multiple IDs: &#x60;{\&quot;id\&quot;: [\&quot;550e8400-e29b-41d4-a716-446655440000\&quot;, \&quot;550e8400-e29b-41d4-a716-446655440001\&quot;]}&#x60; - Filtering on other columns: &#x60;{\&quot;name\&quot;: \&quot;example\&quot;}&#x60; | [optional] 
  **range** | **str**| Range for pagination in the format \&quot;[start, end]\&quot;.  Example: &#x60;[0,9]&#x60; | [optional] 
- **sort** | **str**| Sort order for the results in the format &#39;[\&quot;column\&quot;, \&quot;order\&quot;]&#39;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
+ **sort** | **str**| Sort order for the results in the format &#x60;[\&quot;column\&quot;, \&quot;order\&quot;]&#x60;.  Example: &#x60;[\&quot;id\&quot;, \&quot;ASC\&quot;]&#x60; | [optional] 
 
 ### Return type
 
@@ -4540,6 +4591,7 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | List of resources |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -4784,6 +4836,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | The requested resource |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -4865,6 +4918,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | The requested resource |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -4946,6 +5000,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | The requested resource |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -5027,6 +5082,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | The requested resource |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -5108,6 +5164,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | The requested resource |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -5189,6 +5246,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | The requested resource |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -5270,6 +5328,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | The requested resource |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -5351,6 +5410,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | The requested resource |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -5516,6 +5576,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | The requested resource |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -5597,6 +5658,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | The requested resource |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -5678,6 +5740,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | The requested resource |  -  |
 **404** | Resource not found |  -  |
+**500** | Internal Server Error |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -6048,7 +6111,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
@@ -6056,6 +6119,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | Resource updated successfully |  -  |
 **404** | Resource not found |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -6132,7 +6196,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
@@ -6140,6 +6204,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | Resource updated successfully |  -  |
 **404** | Resource not found |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -6216,7 +6281,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
@@ -6224,6 +6289,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | Resource updated successfully |  -  |
 **404** | Resource not found |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -6300,7 +6366,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
@@ -6308,6 +6374,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | Resource updated successfully |  -  |
 **404** | Resource not found |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -6384,7 +6451,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
@@ -6392,6 +6459,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | Resource updated successfully |  -  |
 **404** | Resource not found |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -6468,7 +6536,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
@@ -6476,6 +6544,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | Resource updated successfully |  -  |
 **404** | Resource not found |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -6552,7 +6621,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
@@ -6560,6 +6629,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | Resource updated successfully |  -  |
 **404** | Resource not found |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -6636,7 +6706,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
@@ -6644,6 +6714,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | Resource updated successfully |  -  |
 **404** | Resource not found |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -6720,7 +6791,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
@@ -6728,6 +6799,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | Resource updated successfully |  -  |
 **404** | Resource not found |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -6804,7 +6876,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
@@ -6812,6 +6884,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | Resource updated successfully |  -  |
 **404** | Resource not found |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -6888,7 +6961,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
@@ -6896,6 +6969,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | Resource updated successfully |  -  |
 **404** | Resource not found |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -6972,7 +7046,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
@@ -6980,6 +7054,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | Resource updated successfully |  -  |
 **404** | Resource not found |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -7056,7 +7131,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: application/json
+ - **Accept**: application/json, text/plain
 
 ### HTTP response details
 
@@ -7064,6 +7139,7 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | Resource updated successfully |  -  |
 **404** | Resource not found |  -  |
+**409** | Duplicate record |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 

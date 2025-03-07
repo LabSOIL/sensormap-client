@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **coord_y** | **float** |  | 
 **coord_z** | **float** |  | 
 **created_on** | **date** |  | [optional] 
-**gradient** | [**Gradientchoices**](Gradientchoices.md) |  | 
+**gradient** | [**Gradientchoices**](Gradientchoices.md) |  | [optional] 
 **image** | **str** |  | [optional] 
 **lithology** | **str** |  | [optional] 
 **name** | **str** |  | 

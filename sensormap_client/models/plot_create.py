@@ -34,7 +34,7 @@ class PlotCreate(BaseModel):
     coord_y: Union[StrictFloat, StrictInt]
     coord_z: Union[StrictFloat, StrictInt]
     created_on: Optional[date] = None
-    gradient: Gradientchoices
+    gradient: Optional[Gradientchoices] = None
     image: Optional[StrictStr] = None
     lithology: Optional[StrictStr] = None
     name: StrictStr
@@ -91,6 +91,11 @@ class PlotCreate(BaseModel):
         # and model_fields_set contains the field
         if self.created_on is None and "created_on" in self.model_fields_set:
             _dict['created_on'] = None
+
+        # set to None if gradient (nullable) is None
+        # and model_fields_set contains the field
+        if self.gradient is None and "gradient" in self.model_fields_set:
+            _dict['gradient'] = None
 
         # set to None if image (nullable) is None
         # and model_fields_set contains the field

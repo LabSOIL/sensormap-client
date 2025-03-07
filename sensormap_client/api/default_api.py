@@ -132,6 +132,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Area",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -199,6 +200,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Area",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -266,6 +268,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Area",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -310,7 +313,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -406,6 +410,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "SensorProfileAssignment",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -473,6 +478,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "SensorProfileAssignment",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -540,6 +546,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "SensorProfileAssignment",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -584,7 +591,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -680,6 +688,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "InstrumentExperimentChannel",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -747,6 +756,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "InstrumentExperimentChannel",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -814,6 +824,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "InstrumentExperimentChannel",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -858,7 +869,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -954,6 +966,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "InstrumentExperiment",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1021,6 +1034,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "InstrumentExperiment",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1088,6 +1102,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "InstrumentExperiment",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1132,7 +1147,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -1228,6 +1244,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Gnss",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1295,6 +1312,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Gnss",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1362,6 +1380,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Gnss",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1406,7 +1425,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -1502,6 +1522,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Plot",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1569,6 +1590,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Plot",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1636,6 +1658,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Plot",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1680,7 +1703,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -1776,6 +1800,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "SensorProfile",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1843,6 +1868,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "SensorProfile",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1910,6 +1936,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "SensorProfile",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -1954,7 +1981,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -2050,6 +2078,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Project",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -2117,6 +2146,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Project",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -2184,6 +2214,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Project",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -2228,7 +2259,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -2324,6 +2356,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "PlotSample",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -2391,6 +2424,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "PlotSample",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -2458,6 +2492,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "PlotSample",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -2502,7 +2537,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -2598,6 +2634,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Sensor",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -2665,6 +2702,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Sensor",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -2732,6 +2770,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Sensor",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -2776,7 +2815,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -2872,6 +2912,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "SoilProfile",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -2939,6 +2980,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "SoilProfile",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -3006,6 +3048,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "SoilProfile",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -3050,7 +3093,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -3146,6 +3190,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "SoilType",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -3213,6 +3258,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "SoilType",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -3280,6 +3326,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "SoilType",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -3324,7 +3371,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -3420,6 +3468,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Transect",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -3487,6 +3536,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Transect",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -3554,6 +3604,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '201': "Transect",
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -3598,7 +3649,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -3694,6 +3746,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -3761,6 +3814,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -3828,6 +3882,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -3873,7 +3928,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -3969,6 +4025,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -4036,6 +4093,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -4103,6 +4161,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -4148,7 +4207,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -4244,6 +4304,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -4311,6 +4372,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -4378,6 +4440,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -4423,7 +4486,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -4519,6 +4583,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -4586,6 +4651,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -4653,6 +4719,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -4698,7 +4765,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -4794,6 +4862,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -4861,6 +4930,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -4928,6 +4998,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -4973,7 +5044,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -5069,6 +5141,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -5136,6 +5209,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -5203,6 +5277,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -5248,7 +5323,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -5344,6 +5420,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -5411,6 +5488,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -5478,6 +5556,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -5523,7 +5602,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -5619,6 +5699,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -5686,6 +5767,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -5753,6 +5835,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -5798,7 +5881,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -5894,6 +5978,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -5961,6 +6046,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -6028,6 +6114,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -6073,7 +6160,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -6169,6 +6257,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -6236,6 +6325,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -6303,6 +6393,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -6348,7 +6439,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -6444,6 +6536,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -6511,6 +6604,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -6578,6 +6672,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -6623,7 +6718,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -6719,6 +6815,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -6786,6 +6883,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -6853,6 +6951,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -6898,7 +6997,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -6994,6 +7094,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -7061,6 +7162,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -7128,6 +7230,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '204': "List[str]",
+            '500': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -7173,7 +7276,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -7270,6 +7374,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -7338,6 +7443,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -7406,6 +7512,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -7527,6 +7634,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -7595,6 +7703,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -7663,6 +7772,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -7784,6 +7894,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -7852,6 +7963,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -7920,6 +8032,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -8041,6 +8154,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -8109,6 +8223,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -8177,6 +8292,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -8298,6 +8414,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -8366,6 +8483,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -8434,6 +8552,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -8555,6 +8674,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -8623,6 +8743,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -8691,6 +8812,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -8812,6 +8934,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -8880,6 +9003,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -8948,6 +9072,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -9069,6 +9194,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -9137,6 +9263,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -9205,6 +9332,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -9326,6 +9454,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -9394,6 +9523,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -9462,6 +9592,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -9583,6 +9714,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -9651,6 +9783,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -9719,6 +9852,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -9840,6 +9974,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -9908,6 +10043,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -9976,6 +10112,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -10097,6 +10234,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -10165,6 +10303,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -10233,6 +10372,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -10354,6 +10494,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -10422,6 +10563,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -10490,6 +10632,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '204': None,
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -10817,7 +10960,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -10839,7 +10982,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -10875,6 +11018,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Area]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -10892,7 +11036,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -10914,7 +11058,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -10950,6 +11094,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Area]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -10967,7 +11112,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -10989,7 +11134,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -11025,6 +11170,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Area]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -11114,7 +11260,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -11136,7 +11282,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -11172,6 +11318,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[SensorProfileAssignment]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -11189,7 +11336,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -11211,7 +11358,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -11247,6 +11394,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[SensorProfileAssignment]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -11264,7 +11412,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -11286,7 +11434,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -11322,6 +11470,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[SensorProfileAssignment]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -11411,7 +11560,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -11433,7 +11582,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -11469,6 +11618,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[InstrumentExperimentChannel]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -11486,7 +11636,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -11508,7 +11658,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -11544,6 +11694,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[InstrumentExperimentChannel]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -11561,7 +11712,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -11583,7 +11734,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -11619,6 +11770,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[InstrumentExperimentChannel]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -11708,7 +11860,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -11730,7 +11882,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -11766,6 +11918,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[InstrumentExperiment]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -11783,7 +11936,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -11805,7 +11958,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -11841,6 +11994,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[InstrumentExperiment]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -11858,7 +12012,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -11880,7 +12034,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -11916,6 +12070,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[InstrumentExperiment]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -12005,7 +12160,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -12027,7 +12182,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -12063,6 +12218,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Gnss]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -12080,7 +12236,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -12102,7 +12258,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -12138,6 +12294,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Gnss]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -12155,7 +12312,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -12177,7 +12334,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -12213,6 +12370,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Gnss]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -12302,7 +12460,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -12324,7 +12482,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -12360,6 +12518,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Plot]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -12377,7 +12536,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -12399,7 +12558,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -12435,6 +12594,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Plot]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -12452,7 +12612,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -12474,7 +12634,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -12510,6 +12670,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Plot]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -12599,7 +12760,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -12621,7 +12782,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -12657,6 +12818,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[SensorProfile]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -12674,7 +12836,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -12696,7 +12858,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -12732,6 +12894,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[SensorProfile]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -12749,7 +12912,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -12771,7 +12934,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -12807,6 +12970,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[SensorProfile]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -12896,7 +13060,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -12918,7 +13082,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -12954,6 +13118,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Project]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -12971,7 +13136,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -12993,7 +13158,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -13029,6 +13194,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Project]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -13046,7 +13212,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -13068,7 +13234,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -13104,6 +13270,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Project]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -13193,7 +13360,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -13215,7 +13382,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -13251,6 +13418,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[PlotSample]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -13268,7 +13436,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -13290,7 +13458,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -13326,6 +13494,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[PlotSample]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -13343,7 +13512,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -13365,7 +13534,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -13401,6 +13570,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[PlotSample]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -13490,7 +13660,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -13512,7 +13682,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -13548,6 +13718,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Sensor]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -13565,7 +13736,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -13587,7 +13758,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -13623,6 +13794,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Sensor]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -13640,7 +13812,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -13662,7 +13834,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -13698,6 +13870,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Sensor]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -13787,7 +13960,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -13809,7 +13982,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -13845,6 +14018,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[SoilProfile]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -13862,7 +14036,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -13884,7 +14058,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -13920,6 +14094,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[SoilProfile]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -13937,7 +14112,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -13959,7 +14134,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -13995,6 +14170,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[SoilProfile]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -14084,7 +14260,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -14106,7 +14282,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -14142,6 +14318,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[SoilType]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -14159,7 +14336,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -14181,7 +14358,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -14217,6 +14394,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[SoilType]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -14234,7 +14412,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -14256,7 +14434,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -14292,6 +14470,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[SoilType]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -14381,7 +14560,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -14403,7 +14582,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -14439,6 +14618,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Transect]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -14456,7 +14636,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -14478,7 +14658,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -14514,6 +14694,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Transect]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -14531,7 +14712,7 @@ class DefaultApi:
         self,
         filter: Annotated[Optional[StrictStr], Field(description="JSON-encoded filter for querying resources.  This parameter supports various filtering options: - Free text search: `{\"q\": \"search text\"}` - Filtering by a single ID: `{\"id\": \"550e8400-e29b-41d4-a716-446655440000\"}` - Filtering by multiple IDs: `{\"id\": [\"550e8400-e29b-41d4-a716-446655440000\", \"550e8400-e29b-41d4-a716-446655440001\"]}` - Filtering on other columns: `{\"name\": \"example\"}`")] = None,
         range: Annotated[Optional[StrictStr], Field(description="Range for pagination in the format \"[start, end]\".  Example: `[0,9]`")] = None,
-        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`")] = None,
+        sort: Annotated[Optional[StrictStr], Field(description="Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`")] = None,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -14553,7 +14734,7 @@ class DefaultApi:
         :type filter: str
         :param range: Range for pagination in the format \"[start, end]\".  Example: `[0,9]`
         :type range: str
-        :param sort: Sort order for the results in the format '[\"column\", \"order\"]'.  Example: `[\"id\", \"ASC\"]`
+        :param sort: Sort order for the results in the format `[\"column\", \"order\"]`.  Example: `[\"id\", \"ASC\"]`
         :type sort: str
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
@@ -14589,6 +14770,7 @@ class DefaultApi:
 
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "List[Transect]",
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -15280,6 +15462,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Area",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -15348,6 +15531,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Area",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -15416,6 +15600,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Area",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -15544,6 +15729,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SensorProfileAssignment",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -15612,6 +15798,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SensorProfileAssignment",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -15680,6 +15867,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SensorProfileAssignment",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -15808,6 +15996,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "InstrumentExperimentChannel",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -15876,6 +16065,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "InstrumentExperimentChannel",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -15944,6 +16134,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "InstrumentExperimentChannel",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -16072,6 +16263,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "InstrumentExperiment",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -16140,6 +16332,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "InstrumentExperiment",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -16208,6 +16401,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "InstrumentExperiment",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -16336,6 +16530,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Gnss",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -16404,6 +16599,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Gnss",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -16472,6 +16668,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Gnss",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -16600,6 +16797,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Plot",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -16668,6 +16866,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Plot",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -16736,6 +16935,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Plot",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -16864,6 +17064,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Project",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -16932,6 +17133,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Project",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -17000,6 +17202,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Project",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -17128,6 +17331,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "PlotSample",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -17196,6 +17400,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "PlotSample",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -17264,6 +17469,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "PlotSample",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -17676,6 +17882,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SoilProfile",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -17744,6 +17951,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SoilProfile",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -17812,6 +18020,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SoilProfile",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -17940,6 +18149,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SoilType",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -18008,6 +18218,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SoilType",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -18076,6 +18287,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SoilType",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -18204,6 +18416,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Transect",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -18272,6 +18485,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Transect",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -18340,6 +18554,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Transect",
             '404': None,
+            '500': None,
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -19492,6 +19707,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Area",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -19564,6 +19780,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Area",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -19636,6 +19853,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Area",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -19683,7 +19901,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -19784,6 +20003,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SensorProfileAssignment",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -19856,6 +20076,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SensorProfileAssignment",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -19928,6 +20149,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SensorProfileAssignment",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -19975,7 +20197,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -20076,6 +20299,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "InstrumentExperimentChannel",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -20148,6 +20372,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "InstrumentExperimentChannel",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -20220,6 +20445,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "InstrumentExperimentChannel",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -20267,7 +20493,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -20368,6 +20595,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "InstrumentExperiment",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -20440,6 +20668,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "InstrumentExperiment",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -20512,6 +20741,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "InstrumentExperiment",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -20559,7 +20789,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -20660,6 +20891,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Gnss",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -20732,6 +20964,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Gnss",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -20804,6 +21037,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Gnss",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -20851,7 +21085,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -20952,6 +21187,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Plot",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -21024,6 +21260,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Plot",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -21096,6 +21333,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Plot",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -21143,7 +21381,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -21244,6 +21483,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SensorProfile",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -21316,6 +21556,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SensorProfile",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -21388,6 +21629,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SensorProfile",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -21435,7 +21677,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -21536,6 +21779,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Project",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -21608,6 +21852,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Project",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -21680,6 +21925,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Project",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -21727,7 +21973,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -21828,6 +22075,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "PlotSample",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -21900,6 +22148,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "PlotSample",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -21972,6 +22221,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "PlotSample",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -22019,7 +22269,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -22120,6 +22371,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Sensor",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -22192,6 +22444,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Sensor",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -22264,6 +22517,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Sensor",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -22311,7 +22565,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -22412,6 +22667,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SoilProfile",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -22484,6 +22740,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SoilProfile",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -22556,6 +22813,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SoilProfile",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -22603,7 +22861,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -22704,6 +22963,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SoilType",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -22776,6 +23036,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SoilType",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -22848,6 +23109,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "SoilType",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -22895,7 +23157,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 
@@ -22996,6 +23259,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Transect",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -23068,6 +23332,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Transect",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -23140,6 +23405,7 @@ class DefaultApi:
         _response_types_map: Dict[str, Optional[str]] = {
             '200': "Transect",
             '404': None,
+            '409': "str",
         }
         response_data = self.api_client.call_api(
             *_param,
@@ -23187,7 +23453,8 @@ class DefaultApi:
         if 'Accept' not in _header_params:
             _header_params['Accept'] = self.api_client.select_header_accept(
                 [
-                    'application/json'
+                    'application/json', 
+                    'text/plain'
                 ]
             )
 

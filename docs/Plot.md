@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 **coord_y** | **float** |  | 
 **coord_z** | **float** |  | 
 **created_on** | **date** |  | [optional] 
-**gradient** | [**Gradientchoices**](Gradientchoices.md) |  | 
+**gradient** | [**Gradientchoices**](Gradientchoices.md) |  | [optional] 
 **id** | **str** |  | 
 **image** | **str** |  | [optional] 
 **last_updated** | **datetime** |  | 
